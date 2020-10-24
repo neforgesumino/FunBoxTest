@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/neforgesumino/ReactSignupForm/static/css/main.d0d6ea5f.chunk.css",
+    "main.js": "/neforgesumino/ReactSignupForm/static/js/main.54200119.chunk.js",
+    "main.js.map": "/neforgesumino/ReactSignupForm/static/js/main.54200119.chunk.js.map",
+    "runtime-main.js": "/neforgesumino/ReactSignupForm/static/js/runtime-main.0db72e8f.js",
+    "runtime-main.js.map": "/neforgesumino/ReactSignupForm/static/js/runtime-main.0db72e8f.js.map",
+    "static/js/2.8ca65439.chunk.js": "/neforgesumino/ReactSignupForm/static/js/2.8ca65439.chunk.js",
+    "static/js/2.8ca65439.chunk.js.map": "/neforgesumino/ReactSignupForm/static/js/2.8ca65439.chunk.js.map",
+    "index.html": "/neforgesumino/ReactSignupForm/index.html",
+    "precache-manifest.26ae9f26dbc080c3be2d442d292d1839.js": "/neforgesumino/ReactSignupForm/precache-manifest.26ae9f26dbc080c3be2d442d292d1839.js",
+    "service-worker.js": "/neforgesumino/ReactSignupForm/service-worker.js",
+    "static/css/main.d0d6ea5f.chunk.css.map": "/neforgesumino/ReactSignupForm/static/css/main.d0d6ea5f.chunk.css.map",
+    "static/js/2.8ca65439.chunk.js.LICENSE.txt": "/neforgesumino/ReactSignupForm/static/js/2.8ca65439.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/neforgesumino/ReactSignupForm/static/media/Poppins Regular.dca5633a.woff2",
+    "static/media/burger.svg": "/neforgesumino/ReactSignupForm/static/media/burger.9120d9cb.svg",
+    "static/media/four.svg": "/neforgesumino/ReactSignupForm/static/media/four.a9007892.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0db72e8f.js",
+    "static/js/2.8ca65439.chunk.js",
+    "static/css/main.d0d6ea5f.chunk.css",
+    "static/js/main.54200119.chunk.js"
+  ]
+}
