@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { toggleNavbar } from "actions/layout";
+import { toggleNavbar } from "./layout";
 
 const Header = ({ title = "Page Title" }) => {
     const dispatch = useDispatch();

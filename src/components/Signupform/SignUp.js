@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from "react";
-import Header from "components/Header";
-import "./signup.css";
+import Header from "./Header";
+import "./SignUp.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import usePasswordToggle from "hooks/usePasswordToggle";
-import PasswordStrengthIndicator from "components/PasswordStrengthIndicator";
-import ExternalInfo from "components/ExternalInfo";
-import AppConfig from "App.config";
+import usePasswordToggle from "/hooks/usePasswordToggle";
+import PasswordStrengthIndicator from "/components/PasswordStrengthIndicator";
 
 const isNumberRegx = /\d/;
 const specialCharacterRegx = /[ !@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/;
@@ -35,7 +33,7 @@ const Signup = () => {
             <Header title="Signup Form" />
             <div className="row justify-content-center">
                 <div className="col-lg-6 text-center">
-                    <ExternalInfo page="signup" />
+
 
                     <div className="card bg-light">
                         <article
@@ -118,38 +116,6 @@ const Signup = () => {
                                 </p>
                             </form>
                         </article>
-                    </div>
-
-                    <div className="text-left mt-3">
-                        <p className="text-dark">
-                            In this page you can find the demo for
-                        </p>
-                        <ul className="text-primary">
-                            <li>
-                                <a
-                                    href="https://youtu.be/bYBb3UCQtZ0"
-                                    target="_blank"
-                                >
-                                    Password strength indicator
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="https://youtu.be/4kx44fbNZ-Y"
-                                    target="_blank"
-                                >
-                                    Password toggle using a hook
-                                </a>{" "}
-                            </li>
-                            <li className="text-primary">
-                                <a
-                                    href="https://youtu.be/QZSxSjKmW_Y"
-                                    target="_blank"
-                                >
-                                    Integrate font awesome in reactjs
-                                </a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>
