@@ -1,8 +1,8 @@
 import React, { Suspense, useEffect } from "react";
 import "components/FontawsomeIcons";
 
-import "./App.scss";
-import "./dark.scss";
+import "./scss/App.scss";
+import "./scss/dark.scss";
 
 import Layout from "pages/_layouts/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
