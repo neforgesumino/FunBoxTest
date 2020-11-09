@@ -1,13 +1,5 @@
 import { actionTypes } from "actions/layout";
 
-const initialState = {
-    navbar: true,
-    videoPlayer: {
-        video: "",
-        visible: false
-    }
-};
-
 export default function layout(state = initialState, action) {
     switch (action.type) {
         case actionTypes.TOGGLE_NAVBAR:
